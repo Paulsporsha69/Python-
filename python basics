@@ -1,1 +1,47 @@
+import  random
+print("Hello World!   t")
+#print("Hello " + input("What is your name ?"))
+#print(input())
+#print(input())
+#print(len("eyiif"))
+#print(len(input()))
+#name =input("What is your name ?")
+#print(name)
+namee="r9urt9wu"
+length=len(namee)
+print(namee)
+print(length)
+#num1 =int (input())
+#num2 =int(input())
+#n=num1
+#m=num2
+#print(n * m)
+print("Hello"[0])
+print(namee[5])
+print("123"  +"456")
+print(str(123)+str(456))
+print(100  + float("122.8"))
+#two_di=input()
+#print(int(two_di))
+height=input()
+weight=input()
+w_as_int=int(weight)
+h_as_float=float(height)
+bmi=w_as_int/h_as_float**2
+bmi_as_int=(bmi)
+print(bmi_as_int)
+score=0
+height=1.5
+lol=True
+#f-string
+print(f"your score is {score},your height is {height},your are winning is {lol}")
 
+
+randominteger = random.randint(1,100)
+print(randominteger)
+fruits = ["mango,jam,banana,chery"]
+for fruit in fruits:
+  print(fruit)
+  print(fruit + " gfg")
+  
+  
